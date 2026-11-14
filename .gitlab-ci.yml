@@ -1,0 +1,13 @@
+# GitLab Pages: publica index.html, css/ y js/ en cada push a la rama por defecto.
+pages:
+  stage: deploy
+  image: node:20-alpine
+  script:
+    - sh -c 'cat js/utils.js js/HardwareData.js js/SpaceScene.js js/EviAssistant.js js/UIController.js js/main.js > /tmp/all.js && node --check /tmp/all.js'
+    - mkdir -p public
+    - cp -r index.html css js public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

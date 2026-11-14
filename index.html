@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EV-TRON · Hardware olvidado en el espacio</title>
+<meta name="description" content="EVI, tu robot guía, te cuenta la historia del hardware que la NASA dejó en la órbita terrestre, la Luna y Marte.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<canvas id="c" aria-label="Escena 3D: Tierra, Luna y Marte. Usa el Catálogo o el Tour guiado para elegir objetos con teclado."></canvas>
+<header id="top" class="pn">
+  <div><h1>EV-TRON</h1><p>Hardware olvidado en la Tierra, la Luna y Marte</p></div>
+  <div style="display:flex;gap:6px"><button id="resBtn" aria-expanded="false" aria-controls="res">Recursos NASA</button><button id="catBtn" aria-expanded="false" aria-controls="cat">Catálogo</button></div>
+</header>
+<div id="cat" class="pn" hidden role="region" aria-label="Catálogo de objetos"></div>
+<div id="res" class="pn" hidden role="region" aria-label="Recursos de la NASA"></div>
+<section id="hud" class="pn" aria-label="Estado de EVI"><div><b>EVI</b><br><span id="hudSt">Flotando</span></div></section>
+<section id="dlg" class="pn" hidden role="dialog" aria-label="Diálogo de EVI">
+  <div class="dh"><b>EVI</b><span class="meta" id="dMeta"></span><span class="bars" id="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+    <a id="dSrc" target="_blank" rel="noopener">Fuente NASA ↗</a><button id="dVoice" aria-pressed="false" aria-label="Activar voz narrada">🔊</button><button id="dX" aria-label="Cerrar y enviar a EVI a casa">✕</button></div>
+  <p id="dTxt" aria-hidden="true"></p><a id="dSrc" hidden target="_blank" rel="noopener noreferrer" style="font-size:12px;color:var(--acc)">Ver ficha en la NASA ↗</a><p id="sr" class="sr" aria-live="polite"></p>
+</section>
+<nav id="ctrl" class="pn" aria-label="Controles de tiempo, cámara y tour">
+  <button id="bPause" aria-pressed="false">⏸ Pausar</button>
+  <button id="bSlow" aria-pressed="false">🐢 Cámara lenta</button>
+  <span id="spd">×1.00</span><span class="sep" aria-hidden="true"></span>
+  <select id="tour" aria-label="Tour guiado por EVI"></select>
+  <span class="sep" aria-hidden="true"></span>
+  <button data-f="earth">Tierra</button><button data-f="moon">Luna</button><button data-f="mars">Marte</button><button data-f="all">Vista global</button>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/HardwareData.js"></script>
+<script src="js/SpaceScene.js"></script>
+<script src="js/EviAssistant.js"></script>
+<script src="js/UIController.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
