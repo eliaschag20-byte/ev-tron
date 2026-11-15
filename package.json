@@ -1,6 +1,6 @@
 {
   "name": "ev-tron",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "EV-TRON: hardware left behind on Earth orbit, the Moon, Mars and deep space, told by EVI. NASA Space Apps Challenge.",
   "license": "MIT",
   "private": true,

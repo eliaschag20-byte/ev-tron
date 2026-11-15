@@ -70,3 +70,21 @@ a{color:var(--accent-cyan)}
 @keyframes fall{to{transform:translateY(130px) rotate(8deg);opacity:0}}
 @media(max-width:640px){#board{left:auto;right:10px;top:calc(env(safe-area-inset-top,0px) + 72px);width:150px;max-height:calc(100vh - 420px);overflow:auto}}
 @media(prefers-reduced-motion:reduce){.bars.talk i{animation:none;height:10px}.in,.fall,.r1{animation:none!important}}
+
+/* --- EVI-E: saludo, elección y selector de idioma --- */
+#welcome{overflow:auto}
+#welcome .pn{max-height:calc(100vh - 24px);overflow:auto}
+#nameBox[hidden],#greet[hidden],#choice[hidden]{display:none}
+#greet{max-width:520px}
+.lgs{display:flex;gap:6px;justify-content:center;margin-bottom:6px}
+.lgs button{font-size:12px;letter-spacing:.05em}
+#eviImg{display:block;margin:6px auto 8px;max-width:min(240px,60vw);max-height:32vh;width:auto;height:auto;border-radius:18px;border:1px solid var(--line);animation:bob 3.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px)}}
+#gTxt{min-height:8.5em;margin:6px 0;text-align:left;font-size:16px}
+.row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+#choice{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 74px);width:min(540px,calc(100vw - 20px));padding:14px 16px;z-index:6;text-align:center;border-color:var(--acc)}
+#choice h2{margin:0 0 4px;font-family:var(--font-display);font-size:18px}
+#choice p{margin:0 0 4px;color:var(--mut)}
+@media(max-width:640px){#choice{bottom:calc(env(safe-area-inset-bottom,0px) + 150px)}}
+@media(max-width:480px){#lang button{padding:6px 8px;font-size:12px}#top h1{font-size:16px}}
+@media(prefers-reduced-motion:reduce){#eviImg{animation:none}}

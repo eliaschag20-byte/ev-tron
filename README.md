@@ -1,6 +1,6 @@
 # EV-TRON 🛰️
 
-> Forgotten hardware on **Earth orbit**, the **Moon**, **Mars** and **deep space**, told by **EVI** (*Exploration & Voice Intelligence*), a robot guide for young audiences (ages 8–12).
+> Forgotten hardware on **Earth orbit**, the **Moon**, **Mars** and **deep space**, told by **EVI-E** (*Exploration & Voice Intelligence*), a robot guide for young audiences (ages 8–12).
 
 Built for the **NASA Space Apps Challenge**. Interactive 3D web app (Three.js), no build step: open `index.html`. Bilingual **EN / ES** (English by default).
 
@@ -12,10 +12,12 @@ Built for the **NASA Space Apps Challenge**. Interactive 3D web app (Three.js), 
 
 - 3D scene: starfield, Earth, Moon (animated orbit) and Mars, with procedural textures (no external images).
 - **17 missions**, each with 3 layers: **1 Record** (facts), **2 Science** (what it found) and **3 Last transmission** (poetry, always labeled as a poetic interpretation based on telemetry, not a NASA statement).
-- **EVI** floats in a HUD (top left), flies to the chosen object while the camera follows, and narrates with a typewriter effect and voice animation.
+- **EVI-E** floats in a HUD (top left), flies to the chosen object while the camera follows, and narrates with a typewriter effect and voice animation.
 - **Audio** 🔊: two different voice profiles (English / Spanish). Pressing it mid-story starts the narration from the current point. Uses the browser's speech voices, so quality depends on the device.
+- **Greeting and mini tour**: after typing a nickname, EVI-E introduces itself (with its portrait), gives a short Earth → Mars → Moon mini tour, and then offers a **full guided tour** or **explore on my own** (catalog, planet buttons, clicking objects).
+- **Background music** 🎵 (toggle in the control bar): it fades out automatically while EVI-E narrates with the Audio option on, and returns afterwards.
 - **Explorers list**: enter your name at the start; finish a story and your name joins that mission's top-10 list (gold, silver, bronze, then grey; newest first, the 11th falls off) and appears as a ★ label next to the object. By default the list is stored in the browser (`localStorage`), per device; with the optional free database it is shared by everyone (see [docs/DATABASE.md](docs/DATABASE.md)).
-- Controls: Pause/Resume, Slow motion, focus Earth/Moon/Mars/Global, Catalog and **Guided tour by EVI**.
+- Controls: Pause/Resume, Slow motion, focus Earth/Moon/Mars/Global, Catalog and **Guided tour by EVI-E**.
 - Accessibility: keyboard navigation, `aria-*`, full text for screen readers, `prefers-reduced-motion`, responsive layout for phones.
 
 ## Run locally
@@ -34,6 +36,7 @@ Needs internet to load Three.js r128 and Tween.js from CDN (pinned versions) and
 ```
 ev-tron/
 ├── index.html              # page structure and script order
+├── assets/                 # evi-e.png (EVI-E portrait), space-ambient.mp3 (background music)
 ├── css/styles.css          # design tokens, HUD, control panel, dialog, explorers list
 ├── js/
 │   ├── utils.js            # shared helpers
@@ -42,7 +45,7 @@ ev-tron/
 │   ├── Store.js            # explorers list storage: Supabase REST or localStorage
 │   ├── HardwareData.js     # factual data per mission + official source links
 │   ├── SpaceScene.js       # initScene, createPlanets, createSatellites, camera, labels
-│   ├── EviAssistant.js     # EVI mesh, flight, states, progressive text
+│   ├── EviAssistant.js     # EVI-E mesh, flight, states, progressive text
 │   ├── UIController.js     # controls, tour, dialog, voices, welcome and explorers list
 │   └── main.js             # bootstrap and animation loop
 ├── db/schema.sql           # table + row-level security for the optional database
@@ -105,7 +108,12 @@ bash scripts/push-both.sh main
 
 ## Resumen en español
 
-EV-TRON cuenta, con el robot guía **EVI**, la historia del hardware que la NASA y otras agencias dejaron en la órbita terrestre, la Luna, Marte y el espacio profundo, para niños de 8 a 12 años. Interfaz en inglés por defecto con cambio a español, dos voces distintas, lista de exploradores por misión y fuentes oficiales NSSDCA/NASA Science en cada ficha. Para ejecutarlo, abre `index.html`; para publicarlo, usa GitHub Pages o GitLab Pages como se indica arriba.
+EV-TRON cuenta, con el robot guía **EVI-E**, la historia del hardware que la NASA y otras agencias dejaron en la órbita terrestre, la Luna, Marte y el espacio profundo, para niños de 8 a 12 años. Interfaz en inglés por defecto con cambio a español, dos voces distintas, lista de exploradores por misión y fuentes oficiales NSSDCA/NASA Science en cada ficha. Para ejecutarlo, abre `index.html`; para publicarlo, usa GitHub Pages o GitLab Pages como se indica arriba.
+
+## Credits
+
+- Background music: "Space" by Rexlambo, from the Audio Library (free, no copyright), recompressed to 128 kbps. Check the Audio Library terms of use before publishing.
+- EVI-E illustration: provided by the project team.
 
 ## License
 

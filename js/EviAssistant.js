@@ -55,7 +55,7 @@ const EviAssistant={
   },
   say(text,done){this.full=text;this.n=0;this.shown=-1;this.talking=true;this.onDone=done;UI.setTalking(true);UI.speak(text.replace(/\u0001/g,' '))},
   speakNow(){ // el audio arranca desde donde va el relato
-    if(!this.full||$('#dlg').hidden)return;
+    if(!this.full||($('#dlg').hidden&&!UI.sink))return;
     const from=this.talking?Math.max(0,this.shown):0;
     UI.speak(this.full.slice(from).replace(/\u0001/g,' '));
   },

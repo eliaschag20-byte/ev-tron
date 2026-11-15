@@ -5,7 +5,7 @@ pages:
   script:
     - sh scripts/check.sh
     - mkdir -p public
-    - cp -r index.html css js data public/
+    - cp -r index.html css js data assets public/
   artifacts:
     paths:
       - public
