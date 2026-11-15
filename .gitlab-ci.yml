@@ -1,11 +1,11 @@
-# GitLab Pages: publica index.html, css/ y js/ en cada push a la rama por defecto.
+# GitLab Pages: publica index.html, css/, js/ y data/ en cada push a la rama por defecto.
 pages:
   stage: deploy
   image: node:20-alpine
   script:
-    - sh -c 'cat js/utils.js js/HardwareData.js js/SpaceScene.js js/EviAssistant.js js/UIController.js js/main.js > /tmp/all.js && node --check /tmp/all.js'
+    - sh scripts/check.sh
     - mkdir -p public
-    - cp -r index.html css js public/
+    - cp -r index.html css js data public/
   artifacts:
     paths:
       - public

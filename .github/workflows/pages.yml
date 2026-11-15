@@ -21,7 +21,7 @@ jobs:
       - name: Comprobar sintaxis JS
         run: bash scripts/check.sh
       - name: Preparar sitio
-        run: mkdir public && cp -r index.html css js public/
+        run: mkdir public && cp -r index.html css js data public/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

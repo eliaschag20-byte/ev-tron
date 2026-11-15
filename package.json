@@ -1,11 +1,13 @@
 {
   "name": "ev-tron",
-  "version": "0.3.0",
-  "description": "EV-TRON: hardware olvidado en la Tierra, la Luna y Marte, narrado por EVI. NASA Space Apps Challenge.",
+  "version": "0.5.0",
+  "description": "EV-TRON: hardware left behind on Earth orbit, the Moon, Mars and deep space, told by EVI. NASA Space Apps Challenge.",
   "license": "MIT",
   "private": true,
   "scripts": {
     "start": "npx serve .",
-    "check": "bash scripts/check.sh"
+    "check": "bash scripts/check.sh",
+    "export-stories": "node scripts/export-stories.js",
+    "test": "node scripts/test-store.js"
   }
 }

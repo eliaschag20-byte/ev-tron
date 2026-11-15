@@ -1,10 +1,10 @@
-/* main.js */
-/* Arranque de la aplicación */
+/* main.js · Arranque de la aplicación y bucle de animación */
+'use strict';
 if(typeof THREE==='undefined'||!THREE.OrbitControls||typeof TWEEN==='undefined'){
-  document.body.insertAdjacentHTML('beforeend','<p style="padding:90px 20px">No se pudieron cargar las librerías 3D. Revisa tu conexión.</p>');
+  document.body.insertAdjacentHTML('beforeend','<p style="padding:90px 20px">3D libraries could not be loaded. / No se pudieron cargar las librerías 3D.</p>');
 }else{
   SpaceScene.initScene();SpaceScene.createPlanets();SpaceScene.createSatellites();
-  EviAssistant.build();UI.setupControls();UI.handleInteractions();UI.updateUI();
+  EviAssistant.build();Board.init();UI.setupControls();UI.handleInteractions();
   const clock=new THREE.Clock();
   (function loop(){
     requestAnimationFrame(loop);

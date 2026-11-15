@@ -1,0 +1,477 @@
+{
+  "missions": [
+    {
+      "id": "vanguard",
+      "z": "orbit",
+      "y": 1958,
+      "s": "warn",
+      "nssdc": "1958-002B",
+      "o": {
+        "a": 6.75,
+        "b": 6.63,
+        "inc": 34.25,
+        "sp": 0.35,
+        "ph": 1
+      },
+      "en": {
+        "n": "Vanguard 1",
+        "loc": "Earth orbit",
+        "st": "In orbit · silent since 1964",
+        "rec": "Launched Mar 17, 1958 · size of a grapefruit · oldest human-made object still in orbit",
+        "sci": "Tracking its orbit showed that Earth is slightly pear-shaped. Its solar cells kept its radio alive for years.",
+        "po": "I am small and I am old. I stopped talking long ago, but I never stopped falling around you."
+      },
+      "es": {
+        "n": "Vanguard 1",
+        "loc": "Órbita terrestre",
+        "st": "En órbita · sin señal desde 1964",
+        "rec": "Lanzado el 17 mar 1958 · del tamaño de una toronja · el objeto humano más antiguo aún en órbita",
+        "sci": "Seguir su órbita mostró que la Tierra es ligeramente de forma de pera. Sus celdas solares mantuvieron viva su radio durante años.",
+        "po": "Soy pequeño y soy viejo. Hace mucho dejé de hablar, pero nunca dejé de caer alrededor de ti."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1958-002B"
+    },
+    {
+      "id": "apollo11",
+      "z": "moon",
+      "y": 1969,
+      "s": "warn",
+      "nssdc": "1969-059C",
+      "lat": 0.67,
+      "lon": 23.47,
+      "en": {
+        "n": "Apollo 11 Lunar Module Eagle",
+        "loc": "Tranquility Base, Sea of Tranquility",
+        "st": "Descent stage left on the Moon",
+        "rec": "Launched Jul 16, 1969 · landed Jul 20, 1969 · about 21 kg of samples returned",
+        "sci": "The astronauts left a laser reflector and a seismometer. Eagle’s descent stage was the launch pad for their trip home.",
+        "po": "The footprints stay, because there is no wind to wipe them. I am the floor beneath the first steps."
+      },
+      "es": {
+        "n": "Módulo Lunar Eagle (Apolo 11)",
+        "loc": "Base Tranquilidad, Mar de la Tranquilidad",
+        "st": "Etapa de descenso en la Luna",
+        "rec": "Lanzado el 16 jul 1969 · alunizó el 20 jul 1969 · unos 21 kg de muestras traídas a la Tierra",
+        "sci": "Los astronautas dejaron un reflector láser y un sismómetro. La etapa de descenso del Eagle fue la plataforma de despegue para volver a casa.",
+        "po": "Las huellas se quedan, porque no hay viento que las borre. Soy el suelo bajo los primeros pasos."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C"
+    },
+    {
+      "id": "lrv",
+      "z": "moon",
+      "y": 1971,
+      "s": "warn",
+      "nssdc": "1971-063C",
+      "lat": 26.13,
+      "lon": 3.63,
+      "en": {
+        "n": "Lunar Roving Vehicle (Apollo 15)",
+        "loc": "Hadley–Apennine, Moon",
+        "st": "Parked permanently · 3 LRVs on the Moon",
+        "rec": "Apollo 15, Jul 1971 · about 28 km driven · about 13 km/h · electric, battery-powered",
+        "sci": "Moon buggies let astronauts explore far beyond walking distance and bring back more varied rocks. Apollo 15, 16 and 17 each left one.",
+        "po": "My wheels remember the dust. I wait where I was parked, under a sky with no clouds."
+      },
+      "es": {
+        "n": "Vehículo Lunar LRV (Apolo 15)",
+        "loc": "Hadley–Apeninos, Luna",
+        "st": "Estacionado para siempre · 3 LRV en la Luna",
+        "rec": "Apolo 15, jul 1971 · unos 28 km recorridos · unos 13 km/h · eléctrico, con baterías",
+        "sci": "Los buggies lunares permitieron explorar mucho más allá de lo que se camina y traer rocas más variadas. Los Apolos 15, 16 y 17 dejaron uno cada uno.",
+        "po": "Mis ruedas recuerdan el polvo. Espero donde me estacionaron, bajo un cielo sin nubes."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+    },
+    {
+      "id": "alsep",
+      "z": "moon",
+      "y": 1969,
+      "s": "warn",
+      "nssdc": "1969-099C",
+      "lat": -3,
+      "lon": -29,
+      "en": {
+        "n": "ALSEP science packages (Apollo)",
+        "loc": "Apollo sites (shown: Apollo 12, Ocean of Storms)",
+        "st": "Shut down in 1977",
+        "rec": "Deployed 1969–1972 · five stations (Apollo 12, 14, 15, 16, 17) · turned off in Sep 1977",
+        "sci": "These stations left on the surface kept recording moonquakes and other lunar data long after the astronauts went home.",
+        "po": "Years after the footsteps faded, I kept listening to the Moon’s quiet shivers."
+      },
+      "es": {
+        "n": "Paquetes científicos ALSEP (Apolo)",
+        "loc": "Sitios Apolo (se muestra: Apolo 12, Océano de las Tormentas)",
+        "st": "Apagados en 1977",
+        "rec": "Instalados 1969–1972 · cinco estaciones (Apolo 12, 14, 15, 16, 17) · apagadas en sep 1977",
+        "sci": "Estas estaciones dejadas en la superficie siguieron registrando sismos lunares y otros datos mucho después de que los astronautas volvieran.",
+        "po": "Años después de que se borraron las pisadas, yo seguí escuchando los suaves temblores de la Luna."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+    },
+    {
+      "id": "surveyor3",
+      "z": "moon",
+      "y": 1967,
+      "s": "warn",
+      "nssdc": "1967-035A",
+      "u": "surveyor-3",
+      "lat": -3,
+      "lon": -17,
+      "en": {
+        "n": "Surveyor 3",
+        "loc": "Ocean of Storms, Moon (marker offset for visibility)",
+        "st": "Inactive",
+        "rec": "Launched Apr 17, 1967 · soft-landed Apr 20, 1967 · robotic scoop arm",
+        "sci": "It showed that lunar soil could support landers. In 1969 Apollo 12 astronauts visited it and brought parts back to Earth.",
+        "po": "I came to test the ground so others could stand on it. Then two visitors cut a piece of me to carry home."
+      },
+      "es": {
+        "n": "Surveyor 3",
+        "loc": "Océano de las Tormentas, Luna (marcador desplazado para verlo)",
+        "st": "Inactivo",
+        "rec": "Lanzado el 17 abr 1967 · alunizaje suave el 20 abr 1967 · brazo robótico con pala",
+        "sci": "Mostró que el suelo lunar podía sostener módulos de aterrizaje. En 1969 astronautas del Apolo 12 lo visitaron y trajeron piezas a la Tierra.",
+        "po": "Vine a probar el suelo para que otros pudieran pisarlo. Luego dos visitantes cortaron un pedazo de mí para llevárselo a casa."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+    },
+    {
+      "id": "sojourner",
+      "z": "mars",
+      "y": 1996,
+      "s": "warn",
+      "nssdc": "1996-068A",
+      "u": "mars-pathfinder",
+      "lat": 19.13,
+      "lon": -33.22,
+      "en": {
+        "n": "Sojourner rover (Mars Pathfinder)",
+        "loc": "Ares Vallis, Mars",
+        "st": "Inactive since 1997",
+        "rec": "Landed Jul 4, 1997 · first rover on Mars · designed for 7 sols, worked for 83",
+        "sci": "This small rover studied rocks and soil, proving that little rovers could do big science on Mars.",
+        "po": "I was small as a microwave oven, but I showed that a tiny wheel can cross a whole new world."
+      },
+      "es": {
+        "n": "Rover Sojourner (Mars Pathfinder)",
+        "loc": "Ares Vallis, Marte",
+        "st": "Inactivo desde 1997",
+        "rec": "Aterrizó el 4 jul 1997 · primer rover en Marte · diseñado para 7 soles, funcionó 83",
+        "sci": "Este pequeño rover estudió rocas y suelo y demostró que los rovers pequeños pueden hacer gran ciencia en Marte.",
+        "po": "Era pequeño como un microondas, pero mostré que una ruedita puede cruzar un mundo nuevo."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+    },
+    {
+      "id": "spirit",
+      "z": "mars",
+      "y": 2003,
+      "s": "warn",
+      "nssdc": "2003-027A",
+      "u": "mars-exploration-rovers-spirit-and-opportunity",
+      "lat": -14.57,
+      "lon": 175.47,
+      "en": {
+        "n": "Spirit (MER-A)",
+        "loc": "Gusev Crater, Mars",
+        "st": "Mission ended (last contact Mar 2010)",
+        "rec": "Launched Jun 10, 2003 · landed Jan 4, 2004 · planned 90 sols · stuck in soft sand in 2009",
+        "sci": "Spirit found silica-rich soil, a sign of ancient hot springs or steam vents that could have helped tiny life.",
+        "po": "The sand held my wheels but not my curiosity. I watched the cold winter arrive and kept looking out."
+      },
+      "es": {
+        "n": "Spirit (MER-A)",
+        "loc": "Cráter Gusev, Marte",
+        "st": "Misión terminada (último contacto mar 2010)",
+        "rec": "Lanzado el 10 jun 2003 · aterrizó el 4 ene 2004 · planeado 90 soles · atascado en arena blanda en 2009",
+        "sci": "Spirit halló suelo rico en sílice, señal de antiguas aguas termales o fumarolas que pudieron ayudar a vida diminuta.",
+        "po": "La arena atrapó mis ruedas, pero no mi curiosidad. Vi llegar el invierno frío y seguí mirando afuera."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A"
+    },
+    {
+      "id": "opportunity",
+      "z": "mars",
+      "y": 2003,
+      "s": "warn",
+      "nssdc": "2003-032A",
+      "u": "mars-exploration-rovers-spirit-and-opportunity",
+      "lat": -1.95,
+      "lon": -5.53,
+      "en": {
+        "n": "Opportunity (MER-B)",
+        "loc": "Meridiani Planum, Mars",
+        "st": "Mission Complete (Feb 2019)",
+        "rec": "Launched Jul 7, 2003 · planned 90 Martian sols · lasted 14 years, 293 days (5,352 sols) · 45.16 km",
+        "sci": "Opportunity found clear mineral evidence—like tiny hematite spheres called “blueberries”—proving that liquid water once flowed on ancient Mars.",
+        "po": "I was built for ninety days. I stayed for fifteen years. When the sky turned dark above the valley, I kept looking up through the dust.",
+        "dis": "Poetic interpretation inspired by final telemetry before the June 2018 global dust storm."
+      },
+      "es": {
+        "n": "Opportunity (MER-B)",
+        "loc": "Meridiani Planum, Marte",
+        "st": "Misión completada (feb 2019)",
+        "rec": "Lanzado el 7 jul 2003 · planeado 90 soles marcianos · duró 14 años, 293 días (5.352 soles) · 45,16 km",
+        "sci": "Opportunity halló evidencia mineral —como pequeñas esferas de hematita llamadas “arándanos”— que demuestra que hubo agua líquida en el antiguo Marte.",
+        "po": "Me hicieron para noventa días. Me quedé quince años. Cuando el cielo se oscureció sobre el valle, seguí mirando hacia arriba, entre el polvo.",
+        "dis": "Interpretación poética inspirada en la última telemetría previa a la tormenta global de junio de 2018."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A"
+    },
+    {
+      "id": "viking",
+      "z": "mars",
+      "y": 1975,
+      "s": "warn",
+      "nssdc": "1975-075C",
+      "u": "viking-1",
+      "lat": 22.5,
+      "lon": -47.95,
+      "en": {
+        "n": "Viking 1 & 2 landers",
+        "loc": "Chryse Planitia (Viking 1), Mars",
+        "st": "Inactive · Viking 1 lander ended in 1982",
+        "rec": "Landed Jul 20 and Sep 3, 1976 · first US landers to operate on Mars · Viking 1 lander worked until Nov 1982",
+        "sci": "They sent the first color photos from the Martian surface and ran experiments that searched for life. The results were inconclusive.",
+        "po": "We were the first to stay. We looked at the red ground and asked a very old question: is anyone there?"
+      },
+      "es": {
+        "n": "Módulos Viking 1 y 2",
+        "loc": "Chryse Planitia (Viking 1), Marte",
+        "st": "Inactivos · el módulo Viking 1 terminó en 1982",
+        "rec": "Aterrizaron el 20 jul y el 3 sep 1976 · primeros módulos de EE. UU. que operaron en Marte · Viking 1 funcionó hasta nov 1982",
+        "sci": "Enviaron las primeras fotos en color de la superficie marciana y hicieron experimentos para buscar vida. Los resultados no fueron concluyentes.",
+        "po": "Fuimos los primeros en quedarnos. Miramos el suelo rojo y hicimos una pregunta muy antigua: ¿hay alguien ahí?"
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+    },
+    {
+      "id": "phoenix",
+      "z": "mars",
+      "y": 2007,
+      "s": "warn",
+      "nssdc": "2007-034A",
+      "lat": 68.22,
+      "lon": -125.75,
+      "en": {
+        "n": "Phoenix lander",
+        "loc": "Vastitas Borealis, Mars (68°N)",
+        "st": "Inactive since Nov 2008",
+        "rec": "Launched Aug 4, 2007 · landed May 25, 2008 · about five months of work",
+        "sci": "Phoenix dug into Martian arctic soil and confirmed water ice just below the surface.",
+        "po": "I dug where the ground was cold and found frozen water. Then the long dark winter closed the sky."
+      },
+      "es": {
+        "n": "Módulo Phoenix",
+        "loc": "Vastitas Borealis, Marte (68°N)",
+        "st": "Inactivo desde nov 2008",
+        "rec": "Lanzado el 4 ago 2007 · aterrizó el 25 may 2008 · unos cinco meses de trabajo",
+        "sci": "Phoenix cavó en el suelo ártico de Marte y confirmó hielo de agua justo bajo la superficie.",
+        "po": "Cavé donde el suelo era frío y hallé agua congelada. Luego el largo invierno oscuro cerró el cielo."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-034A"
+    },
+    {
+      "id": "insight",
+      "z": "mars",
+      "y": 2018,
+      "s": "warn",
+      "nssdc": "2018-042A",
+      "u": "insight",
+      "lat": 4.5,
+      "lon": 135.62,
+      "en": {
+        "n": "InSight lander",
+        "loc": "Elysium Planitia, Mars",
+        "st": "Mission ended Dec 2022",
+        "rec": "Launched May 5, 2018 · landed Nov 26, 2018 · detected more than 1,300 marsquakes",
+        "sci": "Its seismometer revealed how thick Mars’s crust is and how big its core is.",
+        "po": "I listened to a quiet planet shiver. Dust fell on my panels like slow snow, and my listening ended."
+      },
+      "es": {
+        "n": "Módulo InSight",
+        "loc": "Elysium Planitia, Marte",
+        "st": "Misión terminada dic 2022",
+        "rec": "Lanzado el 5 may 2018 · aterrizó el 26 nov 2018 · detectó más de 1.300 sismos marcianos",
+        "sci": "Su sismómetro reveló el grosor de la corteza de Marte y el tamaño de su núcleo.",
+        "po": "Escuché temblar a un planeta callado. El polvo cayó sobre mis paneles como nieve lenta, y mi escucha terminó."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-042A"
+    },
+    {
+      "id": "curiosity",
+      "z": "mars",
+      "y": 2011,
+      "s": "ok",
+      "nssdc": "2011-070A",
+      "lat": -4.59,
+      "lon": 137.44,
+      "en": {
+        "n": "Curiosity (MSL)",
+        "loc": "Gale Crater, Mars",
+        "st": "Active",
+        "rec": "Launched Nov 26, 2011 · landed Aug 6, 2012 with a sky crane · climbing Mount Sharp",
+        "sci": "It found that Gale Crater once held a lake with chemical ingredients for life, and it detected organic molecules in ancient rock.",
+        "po": "Every sunrise I read another page of rock. I am still climbing the mountain of stories.",
+        "dis": "Poetic interpretation — Curiosity is still active, so this is imagination, not a real message."
+      },
+      "es": {
+        "n": "Curiosity (MSL)",
+        "loc": "Cráter Gale, Marte",
+        "st": "Activo",
+        "rec": "Lanzado el 26 nov 2011 · aterrizó el 6 ago 2012 con una grúa aérea · escalando el Monte Sharp",
+        "sci": "Halló que el cráter Gale tuvo un lago con ingredientes químicos para la vida y detectó moléculas orgánicas en rocas antiguas.",
+        "po": "Cada amanecer leo otra página de roca. Sigo subiendo la montaña de historias.",
+        "dis": "Interpretación poética — Curiosity sigue activo, así que esto es imaginación, no un mensaje real."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-070A"
+    },
+    {
+      "id": "ingenuity",
+      "z": "mars",
+      "y": 2021,
+      "s": "warn",
+      "u": "mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "lat": 18.4,
+      "lon": 77.5,
+      "en": {
+        "n": "Ingenuity helicopter",
+        "loc": "Jezero Crater, Mars",
+        "st": "Grounded · rotor damage (Jan 2024)",
+        "rec": "Landed with Perseverance Feb 18, 2021 · first powered flight on another planet Apr 19, 2021 · 72 flights",
+        "sci": "It proved that aircraft can fly in Mars’s thin air, opening the door to future flying explorers.",
+        "po": "I was meant to fly five times. I flew seventy-two, and now I rest on the red sand, still dreaming of wind."
+      },
+      "es": {
+        "n": "Helicóptero Ingenuity",
+        "loc": "Cráter Jezero, Marte",
+        "st": "En tierra · rotor dañado (ene 2024)",
+        "rec": "Aterrizó con Perseverance el 18 feb 2021 · primer vuelo motorizado en otro planeta el 19 abr 2021 · 72 vuelos",
+        "sci": "Demostró que se puede volar en el aire delgado de Marte, abriendo la puerta a futuros exploradores voladores.",
+        "po": "Debía volar cinco veces. Volé setenta y dos, y ahora descanso en la arena roja, aún soñando con el viento."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/"
+    },
+    {
+      "id": "kepler",
+      "z": "deep",
+      "y": 2009,
+      "s": "warn",
+      "nssdc": "2009-011A",
+      "u": "kepler",
+      "pos": [
+        -55,
+        4,
+        95
+      ],
+      "en": {
+        "n": "Kepler Space Telescope",
+        "loc": "Earth-trailing orbit around the Sun",
+        "st": "Retired Oct 2018 · drifting",
+        "rec": "Launched Mar 6, 2009 · found thousands of exoplanets · ran out of fuel in 2018",
+        "sci": "Kepler showed that planets are common in our galaxy by watching tiny dips in starlight.",
+        "po": "I counted tiny shadows crossing far-away suns. When my fuel ran out, I drifted on, quietly circling our star."
+      },
+      "es": {
+        "n": "Telescopio Espacial Kepler",
+        "loc": "Órbita alrededor del Sol, siguiendo a la Tierra",
+        "st": "Retirado oct 2018 · a la deriva",
+        "rec": "Lanzado el 6 mar 2009 · halló miles de exoplanetas · se quedó sin combustible en 2018",
+        "sci": "Kepler mostró que los planetas son comunes en nuestra galaxia al vigilar mínimas bajadas en la luz de las estrellas.",
+        "po": "Conté sombras diminutas cruzando soles lejanos. Cuando se acabó mi combustible, seguí a la deriva, girando en silencio alrededor de nuestra estrella."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-011A"
+    },
+    {
+      "id": "dawn",
+      "z": "deep",
+      "y": 2007,
+      "s": "warn",
+      "nssdc": "2007-043A",
+      "u": "dawn",
+      "pos": [
+        171.5,
+        6.4,
+        40
+      ],
+      "en": {
+        "n": "Dawn spacecraft",
+        "loc": "Orbit around Ceres",
+        "st": "Silent since 2018 · orbiting Ceres",
+        "rec": "Launched Sep 27, 2007 · orbited Vesta (2011) and Ceres (2015) · out of fuel in 2018",
+        "sci": "Dawn mapped the giant asteroid Vesta and the dwarf planet Ceres, finding bright salt deposits on Ceres.",
+        "po": "I visited two worlds and stayed with the second. Now I circle Ceres in silence, a small star that never sets."
+      },
+      "es": {
+        "n": "Nave Dawn",
+        "loc": "Órbita alrededor de Ceres",
+        "st": "En silencio desde 2018 · orbitando Ceres",
+        "rec": "Lanzada el 27 sep 2007 · orbitó Vesta (2011) y Ceres (2015) · sin combustible en 2018",
+        "sci": "Dawn mapeó el gran asteroide Vesta y el planeta enano Ceres, y halló depósitos de sal brillante en Ceres.",
+        "po": "Visité dos mundos y me quedé con el segundo. Ahora giro en silencio alrededor de Ceres, una estrella pequeña que nunca se pone."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A"
+    },
+    {
+      "id": "near",
+      "z": "deep",
+      "y": 1996,
+      "s": "warn",
+      "nssdc": "1996-008A",
+      "u": "near-shoemaker",
+      "pos": [
+        -83.6,
+        -6,
+        -70
+      ],
+      "en": {
+        "n": "NEAR Shoemaker",
+        "loc": "Asteroid 433 Eros",
+        "st": "Inactive on Eros since 2001",
+        "rec": "Launched Feb 17, 1996 · orbited Eros in 2000 · landed Feb 12, 2001",
+        "sci": "The first spacecraft to orbit and land on an asteroid. It was not designed to land, yet it kept sending data from the surface.",
+        "po": "I was not built to land, yet I did. I lay down on the ancient rock and whispered numbers to Earth until I slept."
+      },
+      "es": {
+        "n": "NEAR Shoemaker",
+        "loc": "Asteroide 433 Eros",
+        "st": "Inactiva en Eros desde 2001",
+        "rec": "Lanzada el 17 feb 1996 · orbitó Eros en 2000 · aterrizó el 12 feb 2001",
+        "sci": "La primera nave en orbitar y aterrizar en un asteroide. No fue diseñada para aterrizar, pero siguió enviando datos desde la superficie.",
+        "po": "No fui construida para aterrizar, pero lo hice. Me recosté sobre la roca antigua y susurré números a la Tierra hasta dormirme."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-008A"
+    },
+    {
+      "id": "pioneer",
+      "z": "deep",
+      "y": 1972,
+      "s": "warn",
+      "nssdc": "1972-012A",
+      "u": "pioneer-10",
+      "pos": [
+        260,
+        25,
+        -140
+      ],
+      "en": {
+        "n": "Pioneer 10 & 11",
+        "loc": "Leaving the Solar System",
+        "st": "Silent (Pioneer 10: 2003 · Pioneer 11: 1995)",
+        "rec": "Launched 1972 and 1973 · Pioneer 10 first to cross the asteroid belt · Pioneer 11 first to visit Saturn",
+        "sci": "They explored the outer planets for the first time and measured Jupiter’s radiation, which helped protect later spacecraft.",
+        "po": "We carry a plaque with a greeting, and we do not know who will read it. We drift quietly, still traveling."
+      },
+      "es": {
+        "n": "Pioneer 10 y 11",
+        "loc": "Saliendo del Sistema Solar",
+        "st": "En silencio (Pioneer 10: 2003 · Pioneer 11: 1995)",
+        "rec": "Lanzadas en 1972 y 1973 · Pioneer 10 primera en cruzar el cinturón de asteroides · Pioneer 11 primera en visitar Saturno",
+        "sci": "Exploraron por primera vez los planetas exteriores y midieron la radiación de Júpiter, lo que ayudó a proteger naves posteriores.",
+        "po": "Llevamos una placa con un saludo y no sabemos quién la leerá. Vamos a la deriva en silencio, aún viajando."
+      },
+      "nssdc_source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-012A"
+    }
+  ]
+}
